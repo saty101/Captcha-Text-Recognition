@@ -2,15 +2,14 @@
 
 ### Dependances
 
-numpy
+numpy(1.19)   
+pytorch (1.7)   
+PIL(7.0)
 
-pytorch 1.6
+### Running   
 
-### Running
-
-git clone https://github.com/saty101/Captcha-Text-Recognition
-
-cd src
+`git clone https://github.com/saty101/Captcha-Text-Recognition.git`    
+`cd src`   
 
 Download the dataset in this directory
 
@@ -20,7 +19,7 @@ python train.py
 
 This will run 200 epochs, usually 96% accuracy is reached at 40 epochs.
 
-The whole training process is written [here](https://github.com/saty101/Captcha-Text-Recognition/blob/main/notebooks/captcha.ipynb) which can be trained on Google Colab.
+The whole training process is written [here](https://github.com/saty101/Captcha-Text-Recognition/blob/main/notebooks/captcha.ipynb) which can be trained on Google Colab. Download the dataset to /content before using this notebook.
 
 ### Perform Recogition
 
