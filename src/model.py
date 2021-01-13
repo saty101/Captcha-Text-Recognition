@@ -43,9 +43,3 @@ class CaptchaModel(nn.Module):
             return x, loss
 
         return x, None
-
-
-if __name__ == "__main__":
-    cm = CaptchaModel(19)
-    img = torch.rand((1, 3, 50, 200))
-    x, _ = cm(img, torch.rand((1, 5)))
